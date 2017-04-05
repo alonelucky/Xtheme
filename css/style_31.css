@@ -1,0 +1,430 @@
+/* 
+ * 
+ * Filename:           style_31.css
+ * Description:        Theme_31 Cascading Style Sheet
+ * Version:            1.0.0(2011-05-09)
+ * Author:             Liu danyun
+ * E-mail:             289605162@qq.com
+ * Website:            http://www.cssesu.com/
+ * 
+ == STRUCTURE:======================================
+ * 
+ * Page width:         1002px
+ * 
+ */
+
+
+/* #Layout
+ -------------------------------------------------- */
+
+#header,
+#doc,
+#footer {
+    width: 1002px
+}
+
+#header {
+    background-image: url("/wp-content/themes/Xtheme/img/header.gif");
+    background-repeat: no-repeat;
+    height: 490px
+}
+
+#doc {
+    background-color: #F5F5F5;
+    padding: 0 6px;
+    width: 990px
+}
+
+#col-main {
+    width: 750px
+}
+
+#col-left,
+#col-right {
+    padding-top: 130px;
+    width: 230px
+}
+
+#doc.col-3-layout #col-main {
+    margin-left: -240px
+}
+
+#doc.col-3-layout #col-main #c-box {
+    margin-left: 240px;
+    width: 540px
+}
+
+#doc.col-3-layout #col-right {
+    padding-top: 0;
+    width: 200px
+}
+
+
+/* #Theme Style
+ -------------------------------------------------- */
+
+
+/****** #header */
+
+.quick-menu li a,
+.quick-menu li a:hover {
+    color: #333
+}
+
+.mian-menu {
+    position: absolute;
+    top: 432px;
+    width: 100%
+}
+
+.mian-menu ul {
+    height: 46px;
+    line-height: 46px
+}
+
+.mian-menu ul li a {
+    color: #FFF;
+    font-size: 16px
+}
+
+.mian-menu ul li {
+    margin: 0 10px;
+}
+
+.mian-menu ul ul {
+    top: 46px
+}
+
+.banner {
+    position: absolute;
+    top: 124px
+}
+
+.search {
+    background-image: url("/wp-content/themes/Xtheme/img/search.gif");
+    color: #666;
+    font-size: 16px;
+    font-weight: 700;
+    height: 106px;
+    left: 6px;
+    padding: 12px 22px 0;
+    position: absolute;
+    text-align: left;
+    top: 490px;
+    width: 186px
+}
+
+.search.searchRight {
+    left: 766px
+}
+
+
+/****** #col-main */
+
+.post {
+    background-color: #FFF;
+    background-image: url("/wp-content/themes/Xtheme/img/post.gif");
+    background-repeat: repeat-x;
+    border: 1px solid #DDD;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0 12px;
+    overflow: hidden;
+    width: 724px;
+}
+
+
+/** .post_title */
+
+.entry-title {
+    border-bottom: 1px solid #DDD;
+    line-height: 40px
+}
+
+.entry-title a {
+    color: #999
+}
+
+.entry-title strong h2 {
+    margin: 0
+}
+
+
+/** products_gallery */
+
+.entry-images ul li {
+    margin: 0 16px
+}
+
+.entry-content ul li {
+    height: 184px;
+    overflow: hidden;
+}
+
+#products-gallery li {
+    margin: 0 5px
+}
+
+#products-list li .protext {
+    width: 508px
+}
+
+#doc.col-3-layout .entry-images ul li {
+    margin: 0 10px
+}
+
+
+/****** #side-col */
+
+
+/** .side_title */
+
+.widget-container {
+    background-color: #EAEBE7;
+    border: 1px solid #DDD;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px;
+    width: 226px
+}
+
+#doc.col-3-layout #col-right .widget-container {
+    width: 196px
+}
+
+.widget-container h3 {
+    background: url("/wp-content/themes/Xtheme/img/widget_title.gif") repeat-x 0 0 #DEDFDE;
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    padding-bottom: 8px
+}
+
+.widget-container h3 strong {
+    padding-top: 8px
+}
+
+.widget-container ul {
+    background-color: #DEDFDE;
+    border-radius: 0 0 8px 8px
+}
+
+
+/** .side_list */
+
+.widget-container.widget_list ul li a {
+    background-image: url("/wp-content/themes/Xtheme/img/product_list.gif");
+    background-position: 0 100%;
+    background-repeat: repeat-x
+}
+
+.widget-container.widget_list ul li a span {
+    background-image: url("/wp-content/themes/Xtheme/img/list_ico.gif");
+    background-position: 2px 5px;
+    font-weight: 700
+}
+
+.widget-container.widget_list ul ul {
+    border-radius: 0 0 0 0
+}
+
+.widget-container.widget_list ul ul li a {
+    background-image: none
+}
+
+.widget-container.widget_list ul ul li a span {
+    background-position: 10px -106px;
+    font-weight: 400
+}
+
+.widget-container.widget_list ul ul ul li a span {
+    background-position: 20px -106px
+}
+
+
+/** .side_images */
+
+.widget-container.widget_images ul {
+    padding: 12px 37px
+}
+
+#doc.col-3-layout #col-right .widget-container.widget_images ul {
+    padding: 12px 11px
+}
+
+
+/****** #footer */
+
+#footer {
+    background-repeat: no-repeat;
+    padding-top: 38px
+}
+
+#footer a {
+    color: #333
+}
+
+
+/* #a80803 Theme Style
+ -------------------------------------------------- */
+
+.c-a80803 .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_a80803.gif")
+}
+
+.c-a80803 .entry-title h1,
+.c-a80803 .entry-title strong,
+.c-a80803 .widget-container h3,
+.c-a80803 .widget-container h3 a {
+    color: #F40711
+}
+
+.c-a80803 .widget-container.widget_list ul li a {
+    color: #1081A3
+}
+
+.c-a80803 #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_a80803.gif");
+    background-color: #C5C5C5
+}
+
+.c-a80803 .mian-menu ul li.current>a {
+    color: #F2DE31
+}
+
+
+/* #f0cd0d Theme Style
+ -------------------------------------------------- */
+
+.c-f0cd0d .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_f0cd0d.gif")
+}
+
+.c-f0cd0d .entry-title h1,
+.c-f0cd0d .entry-title strong,
+.c-f0cd0d .widget-container h3,
+.c-f0cd0d .widget-container h3 a {
+    color: #D8A60E
+}
+
+.c-f0cd0d .widget-container.widget_list ul li a {
+    color: #5A617C
+}
+
+.c-f0cd0d #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_f0cd0d.gif");
+    background-color: #B5B5B6
+}
+
+.c-f0cd0d .mian-menu ul li.current>a {
+    color: #8A7104
+}
+
+
+/* #fdc923 Theme Style
+ -------------------------------------------------- */
+
+.c-fdc923 .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_fdc923.gif")
+}
+
+.c-fdc923 .entry-title h1,
+.c-fdc923 .entry-title strong,
+.c-fdc923 .widget-container h3,
+.c-fdc923 .widget-container h3 a {
+    color: #D8A60E
+}
+
+.c-fdc923 .widget-container.widget_list ul li a {
+    color: #5A617C
+}
+
+.c-fdc923 #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_fdc923.gif");
+    background-color: #B5B5B6
+}
+
+.c-fdc923 .mian-menu ul li.current>a {
+    color: #885C02
+}
+
+
+/* #b66174 Theme Style
+ -------------------------------------------------- */
+
+.c-b66174 .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_b66174.gif")
+}
+
+.c-b66174 .entry-title h1,
+.c-b66174 .entry-title strong,
+.c-b66174 .widget-container h3,
+.c-b66174 .widget-container h3 a {
+    color: #D43767
+}
+
+.c-b66174 .widget-container.widget_list ul li a {
+    color: #5A617C
+}
+
+.c-b66174 #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_b66174.gif");
+    background-color: #B5B5B6
+}
+
+.c-b66174 .mian-menu ul li.current>a {
+    color: #F2DE31
+}
+
+
+/* #a50002 Theme Style
+ -------------------------------------------------- */
+
+.c-a50002 .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_a50002.gif")
+}
+
+.c-a50002 .entry-title h1,
+.c-a50002 .entry-title strong,
+.c-a50002 .widget-container h3,
+.c-a50002 .widget-container h3 a {
+    color: #AD0303
+}
+
+.c-a50002 .widget-container.widget_list ul li a {
+    color: #5A617C
+}
+
+.c-a50002 #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_a50002.gif");
+    background-color: #B5B5B6
+}
+
+.c-a50002 .mian-menu ul li.current>a {
+    color: #F2DE31
+}
+
+
+/* #f27908 Theme Style
+ -------------------------------------------------- */
+
+.c-f27908 .mian-menu {
+    background-image: url("/wp-content/themes/Xtheme/img/menu_f27908.gif")
+}
+
+.c-f27908 .entry-title h1,
+.c-f27908 .entry-title strong,
+.c-f27908 .widget-container h3,
+.c-f27908 .widget-container h3 a {
+    color: #AD0303
+}
+
+.c-f27908 .widget-container.widget_list ul li a {
+    color: #5A617C
+}
+
+.c-f27908 #footer {
+    background-image: url("/wp-content/themes/Xtheme/img/footer_f27908.gif");
+    background-color: #B5B5B6
+}
+
+.c-f27908 .mian-menu ul li.current>a {
+    color: #F2DE31
+}
